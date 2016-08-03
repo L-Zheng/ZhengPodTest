@@ -16,6 +16,7 @@
 		0FAB96AC1D518DB0007DA58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAB96AA1D518DB0007DA58B /* LaunchScreen.storyboard */; };
 		0FAB96B71D518DB0007DA58B /* ZhengPodTestExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB96B61D518DB0007DA58B /* ZhengPodTestExampleTests.m */; };
 		0FAB96C21D518DB0007DA58B /* ZhengPodTestExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB96C11D518DB0007DA58B /* ZhengPodTestExampleUITests.m */; };
+		0FAB96D21D518EEE007DA58B /* DevelopmentTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB96D11D518EEE007DA58B /* DevelopmentTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0FAB96BD1D518DB0007DA58B /* ZhengPodTestExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZhengPodTestExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAB96C11D518DB0007DA58B /* ZhengPodTestExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZhengPodTestExampleUITests.m; sourceTree = "<group>"; };
 		0FAB96C31D518DB0007DA58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAB96D01D518EEE007DA58B /* DevelopmentTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevelopmentTool.h; sourceTree = "<group>"; };
+		0FAB96D11D518EEE007DA58B /* DevelopmentTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevelopmentTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		0FAB96981D518DB0007DA58B /* ZhengPodTestExample */ = {
 			isa = PBXGroup;
 			children = (
+				0FAB96CF1D518EEE007DA58B /* DevelopmentTool */,
 				0FAB969C1D518DB0007DA58B /* AppDelegate.h */,
 				0FAB969D1D518DB0007DA58B /* AppDelegate.m */,
 				0FAB969F1D518DB0007DA58B /* ViewController.h */,
@@ -142,6 +146,15 @@
 			);
 			path = ZhengPodTestExampleUITests;
 			sourceTree = "<group>";
+		};
+		0FAB96CF1D518EEE007DA58B /* DevelopmentTool */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB96D01D518EEE007DA58B /* DevelopmentTool.h */,
+				0FAB96D11D518EEE007DA58B /* DevelopmentTool.m */,
+			);
+			path = DevelopmentTool;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -277,6 +290,7 @@
 				0FAB969E1D518DB0007DA58B /* AppDelegate.m in Sources */,
 				0FAB96A71D518DB0007DA58B /* ZhengPodTestExample.xcdatamodeld in Sources */,
 				0FAB969B1D518DB0007DA58B /* main.m in Sources */,
+				0FAB96D21D518EEE007DA58B /* DevelopmentTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +514,7 @@
 				0FAB96C81D518DB0007DA58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FAB96C91D518DB0007DA58B /* Build configuration list for PBXNativeTarget "ZhengPodTestExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +523,7 @@
 				0FAB96CB1D518DB0007DA58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FAB96CC1D518DB0007DA58B /* Build configuration list for PBXNativeTarget "ZhengPodTestExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +532,7 @@
 				0FAB96CE1D518DB0007DA58B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
